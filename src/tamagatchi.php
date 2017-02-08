@@ -76,7 +76,7 @@
       {
           if (timeRemaining() < 100) {
             return 'alive';
-          } else if (timeRemaining() => 100 ) {
+          } else if (timeRemaining() >= 100 ) {
             return 'dead';
           }
       }
